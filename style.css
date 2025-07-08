@@ -5,11 +5,60 @@
   font-family: "Poppins";
   box-sizing: border-box;
 }
-body {
-  background: black;
-  color: #fff;
+.Chair {
+  max-width: 1200px;
+  margin: auto;
+  color: #000;
 }
-h1 {
+.chair-text-box {
+  text-align: center;
+}
+.chair-text-box h1 {
   font-size: 35px;
-  font-weight: 25px;
+  font-weight: 450;
+  margin-bottom: 21px;
+}
+.chair-text-box p {
+  font-size: 20px;
+  font-weight: 450;
+  margin-bottom: 90px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  padding: 20px 20px;
+  background: #fff;
+  border-radius: 20px;
+  border: solid 1px #646464;
+  box-shadow: 10px 10px #e1e1e1;
+}
+.card img {
+  margin-bottom: 15px;
+}
+.card h2 {
+  font-size: 25px;
+  font-weight: 450;
+  margin-bottom: 15px;
+}
+.card p {
+  font-size: 14px;
+  font-weight: 450;
+  margin-bottom: 15px;
+  color: #646464;
+}
+.card span {
+  font-size: 20px;
+  font-weight: 450;
+}
+.card-price-box {
+  display: flex;
+  gap: 170px;
+  align-items: center;
+}
+.card button {
+  padding: 10px 15px;
+  background: #036328;
+  color: #000;
 }
